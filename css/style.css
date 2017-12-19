@@ -1,0 +1,480 @@
+.clearfix:after { /* ОЧИСТКА ПОТОКА */
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden; } /* ОЧИСТКА ПОТОКА */
+
+.wrapper-header,
+.wrapper-download,
+.wrapper-services,
+.wrapper-icons,
+.wrapper-main,
+.wrapper-footer {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.wrapper-header {
+	height: 681px;
+	background: url("../img/background-header.png") no-repeat top center;
+	background-size: 100% 100%;
+}
+.wrapper-download {
+	height: 226px;
+	position: relative;
+}
+.wrapper-services {
+	height: 551px;
+	background-image: url("../img/box-one-background.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.wrapper-icons {
+	height: 436px;
+	background-color: #45b681;
+}
+.wrapper-main__user {
+	height: 168px;
+	background-image: url("../img/main-user.png");
+	background-size: contain;
+}
+.wrapper-main__background {
+	height: 328px;
+	background-image: url("../img/main-background.png");
+	background-size: contain;
+	border-top: 2px solid #6088b6;
+}
+.wrapper-main__pouring {
+	height: 396px;
+	background-image: url("../img/main-pouring.png");
+	background-size: contain;
+}
+.wrapper-reviews {
+	height: 482px;
+}
+.wrapper-footer {
+	height: 126px;
+	background-color: #212934;
+	border-top: 1px solid #dadada;
+}
+
+
+.header,
+.download-title,
+.icons,
+.main,
+.footer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.icons {
+	padding-top: 64px;
+}
+.main {
+	position: relative;
+}
+.footer {
+	height: 126px;
+	position: relative;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Блок header */
+.header-logo {
+	padding-top: 18px;
+	display: inline-block;
+}
+
+	/* Блок menu */
+.menu {
+	float: right;
+	margin-top: 8px;
+}
+.menu-link {
+	display: inline-block;
+	text-decoration: none; 
+	margin-right: 60px;
+	height: 42px;
+}
+.menu-link:last-child {
+	margin-right: 0;
+}
+.menu-link:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.menu-item {
+	font-size: 19px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-align: left;
+	padding-top: 10px;
+}
+		/* Блок с заголовком 1-го уровня */
+.h1 {
+	font-size: 60px;
+	font-family: "Kartika";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-align: center;
+	margin: 183px 0 101px;
+	line-height: 70px;
+}
+
+.box-button {
+	text-align: center;
+}
+.header__button {
+	width: 238px;
+	height: 49px;
+	border-radius: 18px;
+	background-color: #7ca5d9;
+	border-width: 0;
+}
+.header__button-link {
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+}
+
+/* Блок download */
+.download {
+	position: absolute;
+    top: -40px;
+    width: 100%;
+	height: 266px;
+	background-image: url(../img/main-download.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+		/* Блок содержащий элементы описания заголовка */
+.download-title {
+	padding-top: 89px;
+}
+		/* Заголовок 4-го уровня */
+.download-title__h4 {
+	font-size: 25px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-bottom: 34px;
+}
+
+.download-title__item {
+	font-size: 17px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.download-button-img {
+	width: 210px;
+	height: 40px;
+	background-image: url("../img/download-button.png");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Блок-обёртка wrapper-services И Блок services */
+.services-title__h2 {
+	font-size: 66px;
+	padding: 67px 0 0 0;
+	font-family: "Segoe UI";
+	color: rgba(0, 0, 0, 0.059);
+	font-weight: bold;
+	text-align: left;
+}
+	/* Блок services */
+.services {
+	width: 340px;
+	margin: -10px 0 0 141px;
+}
+
+.services-title__h3 {
+	font-size: 37px;
+	color: #9f9f9f;
+	font-family: "Raleway";
+	text-align: left;
+	margin-bottom: 65px;
+}
+.services-title__h3 span {
+	font-family: "Roboto";
+	color: #000;
+	font-weight: bold;
+}
+
+.services-text {
+	font-size: 15.6px;
+	font-family: "Segoe UI";
+	color: #000;
+	font-weight: bold;
+	line-height: 1.2;
+	padding-bottom: 30px;
+}
+.services-text_two {
+	padding-bottom: 90px;
+	color: rgba(0, 0, 0, 0.059);
+}
+
+		/* Блок services-button */
+.link-services-button  {
+	display: inline-block;
+}			
+.services-button {
+	height: 44px;
+	width: 185px;
+	background: rgba(255, 255, 255, 0);
+	border: 1px solid #33c5f6;
+	border-radius: 20px;
+
+	color: #000;
+	font-weight: bold;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.case-icons {
+	width: 212px;
+    height: 305px;
+    float: left;
+    position: relative;
+    margin-right: 36px;
+}
+.margin-right_none { /* Модификатор отмены отступа справа */
+	margin-right: 0;
+}
+	/* Блок icons-box с контентом и картинкой */
+.icons-box {
+	width: 210px;
+	height: 215px;
+	margin: 67px auto 0;
+}
+	
+.icons-img {
+	width: 125px;
+	height: 117px;
+	margin: 0 auto 25px;
+	background-repeat: no-repeat;
+}
+.img_one {
+	background-image: url("../img/icon-one.png");
+}
+.img_two {
+	background-image: url("../img/icon-two.png");
+}
+.img_three {
+	background-image: url("../img/icon-three.png");
+}
+.img_four {
+	background-image: url("../img/icon-four.png");
+}
+
+.icons-box-text {
+	font-size: 13.4px;
+	font-family: "LuganskyV";
+	color: rgb(255, 255, 255);
+	text-align: left;
+	font-weight: bold;
+}
+	/* Блок frame (Рамка при наведении) */
+.icons-frame {
+	position: absolute;
+    width: 240px;
+    height: 301px;
+    border: 2px dashed #fff;
+    border-radius: 40px;
+    left: -16px;
+    top: 0;
+    display: none;
+}
+		/* Свойства при наведении */
+.case-icons:hover .icons-frame {
+	display: inline-block;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Блок main */
+.g1 {
+	width: 564px;
+	margin: 0 auto;
+}
+.main-support-img {
+	width: 564px;
+	height: 477px;
+	background-image: url("../img/main-support-img.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -348px;
+}
+
+.main-support-box {
+	padding-top: 174px;	
+}
+		/* Модификатор заголовка 4-го уровня */
+.h4_padding-more {
+	padding-bottom: 78px;
+}
+
+.support-item {
+	display: inline-block;
+	width: 230px;
+	font-size: 16px;
+	font-family: "Calibri";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+}
+.support__title-text {
+	font-size: 13px;
+	font-weight: 200;
+}
+		/* Модификатор св-ва padding left and right */
+.padding-between {
+	padding: 0 131px 0;
+} 
+
+/* Блок reviews(ОТЗЫВЫ) */
+	/* Заголовок 2-го уровня */
+.reviews-title__h2 {
+	font-size: 66px;
+	padding: 40px 0 0 56px;
+	font-family: "Segoe UI";
+	color: rgba(0, 0, 0, 0.059);
+	font-weight: bold;
+}
+.reviews-title__h3 {
+	font-size: 37px;
+	color: #9f9f9f;
+	font-family: "Raleway";
+	text-align: center;
+	padding-bottom: 65px;
+	margin-top: -15px;
+
+}
+.reviews-title__h3 span {
+	font-family: "Roboto";
+	color: #000;
+	font-weight: bold;
+}
+	/* Стили для блока со СЛАЙДЕРОМ */
+.wrapper-slider-reviews {
+	width: 534px;
+	margin: 0 auto;
+}
+.slider-reviews {
+	height: 158px;
+}
+.slider-img {
+	width: 534px;
+	height: 158px;
+	background-image: url("../img/slider-background.png");
+	background-repeat: no-repeat;
+}
+.slider-box {
+	padding: 53px 35px 0;
+}
+.slider-text {
+	font-size: 22px;
+	font-family: "SitkaHeading";
+	color: rgb(42, 42, 42);
+	font-style: italic;
+}
+.corner {
+	width: 16px;
+	height: 26px;
+	position: absolute;
+	top: 67px;
+	z-index: 101;
+	background-repeat: no-repeat;
+}
+.corner-left {left: -142px}
+.corner-right {right: -142px}
+
+.wrapper-slider-avatar {
+	height: 46px;
+	width: 260px;
+	margin: 42px auto 0;
+}
+
+.slider-avatar-img {
+	width: 46px;
+	height: 46px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-right: 10px;
+}
+.img-one {
+	background-image: url("../img/user-avatar.png");
+	
+}
+.img-two {
+	background-image: url("../img/user-avatar.png");
+}
+
+.avatar-title-text {
+	font-size: 16px;
+	font-family: "Roboto";
+	text-align: left;
+	padding: 15px 0;
+}
+/* !!!!!!!!!!!!!!!!!!!!! Блок footer --> Блок логотипа !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.footer-logo {
+	float: left;
+	padding: 40px 0 0 38px;
+}
+	/* Блок contact */
+.footer-contact {
+	float: right;
+	padding: 35px 43px 0 0;
+}
+.contact-email,
+.contact-number {
+	font-size: 14px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: block;
+	padding-bottom: 16px;
+}
+.contact-email:hover {text-decoration: underline;}
+.contact-number:hover {text-decoration: underline;}
+	/* Блок footer меню */
+.footer-list {
+	text-align: center;
+	padding-top: 44px;
+}
+.footer-item {
+	display: inline-block;
+	padding-right: 14px;
+}
+.footer-link,
+.footer-copyright-text {
+	font-size: 12px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+.footer-copyright-text {
+	font-family: "Roboto";
+	position: absolute;
+	bottom: 0;
+	
+}
+	/* Блок footer-copyright. Выравниваем по центру */
+.footer-copyright {
+	margin: 0 auto;
+	width: 210px;
+}
+
